@@ -1,0 +1,95 @@
+			body {
+				font-family:helvetica, arial, sans-serif;
+				padding:0px;
+				margin:0px;
+			}
+			h2 {
+			}
+			#TitleTD {
+				width:200px;
+			}
+			.clear_left {
+			  clear:left;
+			}
+			.menuDivide {
+			  float:left;
+			  width:24em;
+			  margin:1em;
+			}
+			#tableMechanics {
+				width:700px;
+			}
+			#tableMechanics td {
+				padding:2em 1em 0em 2em;
+			}
+	
+			#tableMechanics td ul, li {
+				list-style:none;
+			}		
+			#BannerLogo {
+				width:100%;
+			}
+			#MarathonTitle {
+				font-size:36px;
+				width:42px;
+				display:block;
+			}
+			#SearchTextField {
+				width:12em;
+				height:1.6em;
+				font-size:24px;
+			}
+			#SearchSubmit {
+				width:8em;
+				height:1.6em;
+				background-color:#999;
+				color:white;
+				font-size:20px;
+				text-weight:bold;
+				margin-top:.5em;
+			}
+			#tags{
+				width:12em;
+				height:1.6em;
+				font-size:24px;
+			}
+			.menuDivide a:link {
+				color:#444;
+				text-decoration:none;
+				padding:.5em;
+				font-size:18px;
+			}
+			.menuDivide a:visited {
+				color:#444;
+				text-decoration:none;
+				padding:.5em;
+				font-size:18px;
+			}
+			.menuDivide a:hover{
+				color:#000;
+				text-decoration:none;
+				padding:.5em;
+				background-color:#ccc;
+				font-size:18px;
+			}
+			.menuDivide a:active {
+				color:#00;
+				text-decoration:none;
+				padding:.5em;
+				background-color:#ccc;
+				font-size:18px;
+			}
+			.textMods {
+				font-size: 20px;
+				line-height: 24px;
+				padding:20px;
+			}
+			#textContent {
+				padding: 2em 10%;
+			}
+			.menuModLinks{
+				display:block;
+				padding:.5em;
+				margin:1em;
+				width: 12em;
+			}

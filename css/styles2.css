@@ -1,0 +1,325 @@
+
+#logo_link {
+	width:14em;
+	background-image: url(../design/really-tiny-logo2.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.floatLeft {
+	display:block;
+	float:left;
+	margin-right:2em;
+}
+h1 {
+	margin-top:0px;
+}
+
+.super-grey {
+	color:#888;
+}
+.section-header-hr{
+	border:solid #ccc .5em;
+}
+.degrees-table td{
+	vertical-align:top;
+}
+.plexus {
+	width:260px;
+	height:320px;
+	float:left;
+	padding:10px;
+}
+.school-pic {
+	width:127px;
+	height:127px;
+	margin-right:10px;
+	border:solid #D8D8D8 6px;
+	float:left;
+}
+.school-year {
+	width:100px;
+	height:130px;
+	float:left;
+}
+.school-year-span {
+	font-size:200%;
+}
+.clear_left {
+	clear:left;
+	height:0px;
+}
+.plexus p {
+	margin:0px;
+	padding:0px;
+}
+.portfolio-mods {
+	font-size:80%;
+	width:16em;
+	height:20em;
+	float:left;
+	overflow:hidden;
+}
+.align-center {
+	text-align:center;
+}
+.sidebyside_ul {
+	margin:1em 0em;
+	display:block;
+	font-size:80%;
+	width:16em;
+	float:left;
+}
+.sidebyside_ul li{
+	line-height: 1.4;
+}
+.img-thumbnail {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding: 0px;
+    line-height: 1.42857;
+    background-color: #FFF;
+    border: 0px solid #DDD;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
+#GlobTechs {
+
+}
+.skillz-header{
+	background-color:#ccc;
+	color:white;
+	padding:.03em 1.2em;
+	font-size:120%;
+}
+.skillz-header:hover{
+	background-color:#428BCA;
+}
+.navbar-default {
+    background-color: #162145;
+    border-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+	font-size:130%;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-nav>li>a:link {
+    color: white;
+	font-size:130%;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+	font-size:130%;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+	font-size:130%;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #ccc;
+	font-size:130%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#leif_logo{
+	{ cursor: pointer; cursor: hand; }
+}
+
+
+@media (min-width: 1000px){
+	.navbar-left {
+		float: left!important;
+		height:4em;
+		padding-left:2em;
+	}
+
+		.navbar-left li .superguy{
+		height:4em;
+		margin-left:1em;
+		padding:2.2em 0em;
+	}
+
+}
+@media (max-width: 768px){
+	#leif_logo{
+		width:280px;
+	}
+			.jumbotron {
+		padding-left: 2em;
+	}
+}
+
+@media (min-width: 1000px) {
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar {
+	padding-bottom:10px;
+	border-bottom:#ccc 1px solid;
+}
+.form-control{
+	color:#999;
+}
+.admin_menu_table td {
+	padding:5px;
+}
+.login_notice {
+	font-size:14px;
+	margin:2px;
+	color:#5B347F;
+}
+.sleepymeepy {
+	display:block;
+	width:400px;
+	height:300px;
+	margin-right:20px;
+	float:left;
+}.sleepymeepy td{
+	padding:4px;
+}
+.sleepymeepy p {
+	font-size:15px;
+}
+#resume p {
+	font-size:16px;
+}
+#download_resume{
+	font-size:12px;
+	text-align: right;
+}
+.nav-tabs {
+	font-size:120%;
+}
+.sleepymeepy .module_pic {
+	width:200px;
+}
+.sleepycurrent .module_pic {
+	width:300px;
+}
+.sleepycurrent .module_text_td {
+	padding-left:10px;
+}
+	@media (min-width: 768px){
+	#leiflinder_index {
+		  width: 100%;
+	}
+
+}
+.col-sm-4{
+	font-size:97%;
+}
+.col-sm-4 h3{
+    font-size: 115%;
+    margin:0;
+    padding:5px 0;
+}
+.loading_gif {
+	background-color:white;
+	background-image: url("../design/loading_gif.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:202px;
+	height:243px;
+}
+.footer {
+	height:30px;
+	background-color:#162145; 
+	border-top:#ccc solid 1px;
+	font-size:90%;
+	color:white;
+}
+.footer p{
+margin:5px;
+}
+.footer .frangle {
+	padding-right:10px;
+}
+.skills_container{
+	float:left;
+	margin-bottom: 20px;
+}
+.skills {
+	float:left;
+	padding:3px;
+	border:solid #eeeeee 1px;
+	margin:2px;
+}
+@media (max-width: 520px) {
+  .nav-tabs li, .nav-tabs .active{
+  	border:solid 1px #eeeeee;
+  	padding:3px 5px;
+  	display:block;
+  	float:left;
+  	clear:left;
+  	width:100%;
+  	border-radius: 4px;
+  }
+  .nav-tabs li a:link,
+  .nav-tabs li a:visited,
+  .nav-tabs li a:hover,
+  .nav-tabs li a:active{
+  	border:0;
+  }
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  	border:0;
+  }
+  .cv_link {
+  display:block;
+  width:100%;
+  margin: 4px 0 4px 0;
+  }
+}
+
+.jumbotron h2 {
+	font-size:130%;
+}
+
+.jumbotron p {
+	font-size:110%;
+	color: #666;
+}
+.jumbotron h2 {
+	font-size:130%;
+	color: #337ab7;
+}
+
+		.jumbotron {
+		padding-top: 28px;
+		background-color:white;
+	}
+	
+body {
+    background-image: url("../images/bg2.png");
+    background-color: #cccccc;
+}
+.btn-default {
+	min-width:10em;
+}
+
+
+
+

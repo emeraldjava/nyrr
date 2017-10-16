@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+	  <!--
+	  <style>
+	  ul {
+		margin:2px;
+		background-color:white;
+	  }
+	  ul, il {
+		list-style: none;
+	  }
+		ul li{
+			border-left:solid green 2px;
+		}
+		ul li ul li{
+			border-left:solid red 2px;
+		}
+		ul li ul li ul li{
+			border-left:solid orange 2px;
+		}
+		ul li ul li ul li ul li {
+			border-left:solid blue 2px;
+		}
+	  </style>
+	  -->
+	  <style>
+		.addedToDbase {
+			background-color:yellow;
+		}
+	  </style>
+      <title>NYC Marathon: Information Architecture</title>
+   </head>
+   <body>
+      <h3>Organize by Time</h3>
+       <ul class="sf-menu" id="example">
+         <li>
+            Race Week
+            <ul>
+               <li>Registation</li>
+               <li>Baggage Selection</li>
+               <li>Bib Assignment</li>
+               <li>Transportation Selection</li>
+			   <li class="addedToDbase">Number Pickup</li>
+			   <li class="addedToDbase">Changing Corral</li>
+               <li>
+                  Expo
+                  <ul>
+                     <li>Expo Hours</li>
+                     <li>Booth Locations</li>
+                     <li>Expo Flow</li>
+                     <li>Documentation</li>
+					 <li>Number Pick-Up after Expo Closes</li>
+					 <li>Changing Corral or Wave</li>
+					 <li>Changing Baggage</li>
+					 <li>Changing Transportation</li>
+					 <li>Becoming an Expo Exhibitor</li>
+					 <li>Becoming a Sponsor</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            Race Day
+            <ul class="sf-menu" id="example">
+               <li>Start Times
+				   <ul>
+					  <li class="content">8:30a.m.- Wheelchair Division</li>
+					  <li class="content">8:45 a.m.- Foot Locker Five Borough Challenge</li>
+					  <li class="content">8:55a.m.- Handcycle Category and Select Ambulatory Athletes</li>
+					  <li class="content">9:10a.m.- Professional Women</li>
+					  <li class="content">9:40 a.m.- Wave 1</li>
+					  <li class="content">10:05 a.m.- Wave 2</li>
+					  <li class="content">10:30 a.m. Wave 3</li>
+					  <li class="content">10:55 a.m.- Wave 4</li>
+				   </ul>
+			   </li>
+               <li>Transportation
+					<ul>
+					  <li class="current">Time Needed
+						  <ul>
+							 <li>Midtown: Trains come every 15 min. Train journey take 25 Minutes.</li>
+							 <li>Midtown: Trains come every 15 min. Train journey take 25 Minutes.</li>
+							 <li>Midtown: Trains come every 15 min. Train journey take 25 Minutes.</li>
+						  </ul>
+					  </li>
+					  <li class="current">Subway Train Routes
+						  <ul>
+							 <li>East Side 6, 5, 4 Trains</li>
+							 <li>Mid Town R, N, Q, F trains</li>
+							 <li>Mid Town R, N, Q, F trains</li>
+						  </ul>
+					  </li>
+					  <li>Mid Town Library Buss</li>
+					  <li>New Jersey Bus IZOD</li>
+					</ul>						  	  
+		</li>
+	</ul>
+   </body>
+</html>
